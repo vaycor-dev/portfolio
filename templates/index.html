@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VAYCOR — Python Developer</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+        <div class="logo">VAYCOR<span>.</span></div>
+
+        <nav>
+            <a href="#home">Головна</a>
+            <a href="#skills">Навички</a>
+            <a href="#projects">Проєкти</a>
+            <a href="#about">Про мене</a>
+            <a href="#contact">Контакти</a>
+        </nav>
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-text">
+
+            <div class="status">
+                <span></span> Відкритий до нових проєктів
+            </div>
+
+            <p class="small-title">PYTHON DEVELOPER</p>
+
+            <h1>
+                Ваня<br>
+                <span>Костюкович</span>
+            </h1>
+
+            <h2>
+                Python Developer • Telegram Bots • Flask
+            </h2>
+
+            <p class="hero-description">
+                Створюю Telegram-ботів, веб-додатки та автоматизацію
+                на Python. Постійно розвиваю свої навички та працюю
+                над власними проєктами.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="https://t.me/VAYCOR_OFFICIAL"
+                   target="_blank"
+                   class="btn primary">
+                    Написати в Telegram →
+                </a>
+
+                <a href="#projects" class="btn secondary">
+                    Мої проєкти
+                </a>
+            </div>
+
+        </div>
+
+
+        <div class="hero-photo">
+
+            <div class="photo-glow"></div>
+
+            <img
+                src="{{ url_for('static', filename='images/6b8f9f7a-fc6d-4fd9-9a82-8f5cc91d30dd.png') }}"
+                alt="Ваня Костюкович"
+            >
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+
+        <div class="section-title">
+            <p>01 — НАВИЧКИ</p>
+            <h2>Що я вмію</h2>
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card">
+                <div class="skill-number">01</div>
+                <h3>Python</h3>
+                <p>
+                    Розробка програм, логіки та автоматизації
+                    на Python.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-number">02</div>
+                <h3>Telegram Bots</h3>
+                <p>
+                    Створення Telegram-ботів для бізнесу,
+                    замовлень та автоматизації.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-number">03</div>
+                <h3>Flask</h3>
+                <p>
+                    Створення веб-сайтів, API та адміністративних
+                    панелей.
+                </p>
+            </div>
+
+            <div class="skill-card">
+                <div class="skill-number">04</div>
+                <h3>Automation</h3>
+                <p>
+                    Автоматизація рутинних процесів за допомогою
+                    Python.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- LEARNING -->
+    <section class="learning">
+
+        <div class="learning-content">
+
+            <div>
+                <p class="section-label">02 — ЗАРАЗ ВИВЧАЮ</p>
+
+                <h2>
+                    Постійно<br>
+                    <span>розвиваюсь.</span>
+                </h2>
+            </div>
+
+            <div class="learning-list">
+
+                <div class="learning-item">
+                    <span>01</span>
+                    <p>Python</p>
+                </div>
+
+                <div class="learning-item">
+                    <span>02</span>
+                    <p>Flask & API</p>
+                </div>
+
+                <div class="learning-item">
+                    <span>03</span>
+                    <p>Git & GitHub</p>
+                </div>
+
+                <div class="learning-item">
+                    <span>04</span>
+                    <p>Telegram Bot Development</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section class="section projects" id="projects">
+
+        <div class="section-title">
+            <p>03 — ПРОЄКТИ</p>
+            <h2>Що я створюю</h2>
+        </div>
+
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+
+                <div class="project-top">
+                    <span>01</span>
+                    <span>PYTHON</span>
+                </div>
+
+                <h3>Telegram Bot</h3>
+
+                <p>
+                    Telegram-бот із системою замовлень,
+                    повідомленнями та автоматизацією.
+                </p>
+
+                <div class="project-tech">
+                    Python
+                    <span>•</span>
+                    pyTelegramBotAPI
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-top">
+                    <span>02</span>
+                    <span>FLASK</span>
+                </div>
+
+                <h3>Web Admin Panel</h3>
+
+                <p>
+                    Веб-панель для керування Telegram-ботом
+                    та перегляду інформації.
+                </p>
+
+                <div class="project-tech">
+                    Python
+                    <span>•</span>
+                    Flask
+                </div>
+
+            </div>
+
+
+            <div class="project-card">
+
+                <div class="project-top">
+                    <span>03</span>
+                    <span>WEB</span>
+                </div>
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    Персональний сайт-портфоліо,
+                    створений на Python та Flask.
+                </p>
+
+                <div class="project-tech">
+                    Python
+                    <span>•</span>
+                    Flask
+                    <span>•</span>
+                    HTML
+                    <span>•</span>
+                    CSS
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+
+        <div class="about-photo">
+
+            <img
+                src="{{ url_for('static', filename='images/photo2.png') }}"
+                alt="Ваня Костюкович"
+            >
+
+        </div>
+
+
+        <div class="about-text">
+
+            <p class="section-label">04 — ПРО МЕНЕ</p>
+
+            <h2>
+                Створюю.<br>
+                <span>Вчуся. Розвиваюсь.</span>
+            </h2>
+
+            <p>
+                Мене звати Ваня. Я розвиваюсь у напрямку
+                Python-розробки та створення Telegram-ботів.
+            </p>
+
+            <p>
+                Працюю з Python, Flask та Telegram API,
+                створюю власні проєкти та поступово переходжу
+                до складніших задач.
+            </p>
+
+            <p>
+                Моя ціль — створювати корисні цифрові продукти
+                та допомагати бізнесу автоматизувати процеси.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+
+        <p class="section-label">05 — КОНТАКТИ</p>
+
+        <h2>
+            Є ідея?<br>
+            <span>Давай реалізуємо.</span>
+        </h2>
+
+        <p>
+            Якщо тобі потрібен Telegram-бот, сайт або
+            автоматизація — напиши мені.
+        </p>
+
+        <a
+            href="https://t.me/VAYCOR_OFFICIAL"
+            target="_blank"
+            class="telegram-button"
+        >
+            @VAYCOR_OFFICIAL
+        </a>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer>
+        <div>© 2026 VAYCOR.</div>
+        <div>Built with Python & Flask</div>
+    </footer>
+
+
+</body>
+</html>
